@@ -1,0 +1,103 @@
+/* line 1 */
+body {
+  font-family: Verdana;
+  font-size: 10pt;
+}
+#S_body {
+	text-align: center;
+	background-color: #000;
+    background-image: url(../images/body4.png);
+}
+
+#space_game {
+  background-image: url(../images/bg1.jpg);
+  background-repeat: repeat;
+  background-position: left top;
+  background-color: #000;
+  }
+
+/* Index page Styling */
+ 
+#S_body2 {
+    text-align: center;
+	background-color: #000;
+    background-image: url(../images/back2.gif);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#space_head{
+    font-size: 500%;
+    padding: 80px;
+    margin: auto;
+    color: white;
+  text-shadow: 2px 2px 5px red;
+  animation: head 5s linear 0s infinite alternate;
+}
+@keyframes head {
+  from {font-size: 400%;
+       text-shadow: 2px 2px 5px red;    
+    }
+  to {font-size: 450%;
+    text-shadow: 2px 2px 5px yellow;}
+}
+span.myicons{
+    font-size: 300%;
+    color:white;
+    margin: 20px 80px;
+}
+span.below_text{
+    font-size: 150%;
+    color:forestgreen;
+    margin:50px;
+}
+#play_icon{
+ font-size: 300%;
+ transition: font-size 2s, color 2s, transform 1s;
+ color:darkorange;
+}
+#play_icon:hover{
+    font-size: 450%;
+    transform: rotate(360deg);
+    color:darkred;
+}
+#space_bar{
+    margin: 0px 40px;
+    padding: 5px 20px;
+    border: 2px solid;
+    background-color:darkslategray;
+    color:white;
+}
+
+/* gameover page styling */
+
+#Score_div{
+    padding: 50px;
+    font-size: 200%;
+    color:darkkhaki;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
