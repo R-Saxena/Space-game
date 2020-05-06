@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US">
+  <head>
+    <title>Game Over</title>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>  
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+          window.onload = function() {
+          var score = localStorage.getItem("score");
+          document.getElementById("score").innerHTML = score;
+          }     
+   </script>
+  </head>
+  <body id ="S_body2">
+      <h1 id="space_head">Game over</h1>
+      <div id="Score_div">Your Score: <span id="score"></span></div>
+      <div><a href="play.html"><span id="play_icon" class="myicons glyphicon glyphicon-repeat
+          "></span></a><br><span class="below_text">Play Again</span></div>
+  </body>
+</html>
